@@ -8,7 +8,7 @@ from threading import Thread
 
 DESCRIPTION = '''
 <div>
-<h1 style="text-align: center;">EmoLLM Llama3 心理咨询室 V4.0</h1>
+<h1 style="text-align: center;">EmoLLM Llama3 V4.0</h1>
 
 <p align="center">
   <a href="https://github.com/SmartFlowAI/EmoLLM/">
@@ -21,7 +21,7 @@ DESCRIPTION = '''
 <!-- PROJECT SHIELDS -->
 [![OpenXLab_Model][OpenXLab_Model-image]][OpenXLab_Model-url] 
 
-<h2 style="text-align: center;"> EmoLLM是一系列能够支持 理解用户-支持用户-帮助用户 心理健康辅导链路的 心理健康大模型 ，欢迎大家star~⭐⭐</h2>
+<h2 style="text-align: center;"> EmoLLMIt is a series of mental health models that can support the mental health counseling link of understanding users, supporting users, and helping users. Welcome everyone star~⭐⭐</h2>
 <p>https://github.com/SmartFlowAI/EmoLLM</p>
 </div>
 
@@ -160,11 +160,11 @@ with gr.Blocks(fill_height=True, css=css) as demo:
             #           render=False ),
             ],
         examples=[
-            ['请介绍你自己。'],
-            ['我觉得我在学校的学习压力好大啊，虽然我真的很喜欢我的专业，但最近总是担心自己无法达到自己的期望，这让我有点焦虑。'],
-            ['我最近总觉得自己在感情上陷入了困境，我喜欢上了我的朋友，但又害怕表达出来会破坏我们现在的关系...'],
-            ['我感觉自己像是被困在一个无尽的循环中。每天醒来都感到身体沉重，对日常活动提不起兴趣，工作、锻炼甚至是我曾经喜欢的事物都让我觉得厌倦'],
-            ['最近工作压力特别大，还有一些家庭矛盾']
+            ['Please introduce yourself.'],
+            ['I feel like I'm under a lot of academic pressure at school. Although I really like my major, I've been worrying lately that I won't be able to meet my own expectations, which makes me a little anxious.'],
+            ['I've been feeling stuck in a relationship lately. I've fallen in love with my friend but I'm afraid that expressing it will ruin our current relationship...'],
+            ['I felt like I was stuck in an endless cycle. I woke up feeling heavy, and I had no interest in daily activities. I was bored with work, exercise, and even the things I once enjoyed.'],
+            ['I've been under a lot of work pressure lately, and there are also some family conflicts']
             ],
         cache_examples=False,
                      )
