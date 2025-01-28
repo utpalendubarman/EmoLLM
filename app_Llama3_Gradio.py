@@ -160,11 +160,11 @@ with gr.Blocks(fill_height=True, css=css) as demo:
             #           render=False ),
             ],
         examples=[
-            ['Please introduce yourself.'],
-            ['I feel like I'm under a lot of academic pressure at school. Although I really like my major, I've been worrying lately that I won't be able to meet my own expectations, which makes me a little anxious.'],
-            ['I've been feeling stuck in a relationship lately. I've fallen in love with my friend but I'm afraid that expressing it will ruin our current relationship...'],
-            ['I felt like I was stuck in an endless cycle. I woke up feeling heavy, and I had no interest in daily activities. I was bored with work, exercise, and even the things I once enjoyed.'],
-            ['I've been under a lot of work pressure lately, and there are also some family conflicts']
+            ["Please introduce yourself."],
+            ["I feel like I'm under a lot of academic pressure at school. Although I really like my major, I've been worrying lately that I won't be able to meet my own expectations, which makes me a little anxious."],
+            ["I've been feeling stuck in a relationship lately. I've fallen in love with my friend but I'm afraid that expressing it will ruin our current relationship..."],
+            ["I felt like I was stuck in an endless cycle. I woke up feeling heavy, and I had no interest in daily activities. I was bored with work, exercise, and even the things I once enjoyed."],
+            ["I've been under a lot of work pressure lately, and there are also some family conflicts"]
             ],
         cache_examples=False,
                      )
@@ -172,6 +172,6 @@ with gr.Blocks(fill_height=True, css=css) as demo:
     gr.Markdown(LICENSE)
     
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
     
     
